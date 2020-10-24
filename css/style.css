@@ -358,11 +358,29 @@ template {
 }
 
 .card-block {
-  margin: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+}
+
+.section__title {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.carousel-control-prev {
+  background-color: black;
+  -webkit-transform: translateX(-150px);
+          transform: translateX(-150px);
+}
+
+.carousel-control-next {
+  background-color: black;
+  -webkit-transform: translateX(150px);
+          transform: translateX(150px);
 }

@@ -1,7 +1,23 @@
 
 .card-block {
-    margin: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     width: 100%;
     display: flex;
     justify-content: space-around;
+}
+
+.section__title {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.carousel-control-prev {
+    background-color: black;
+    transform: translateX(-150px);
+}
+
+.carousel-control-next {
+    background-color: black;
+    transform: translateX(150px);
 }
